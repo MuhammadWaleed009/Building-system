@@ -1,0 +1,158 @@
+.table {
+  margin: 0 !important;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+  padding-right: 90px;
+  padding-left: 90px;
+  font: 16px Arial; 
+
+}
+.history {
+font-family: Calibri, "Helvetica", san-serif;
+line-height: 1.5em;
+color: black;
+font-size: 20px;
+}
+h4:after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+}
+#parent {
+  display: flex;
+  vertical-align: middle;
+}
+#wide {
+  font-size: 17px;
+  width: 200px;
+  font-weight: bold;
+  /* Just so it's visible */
+}
+.assessment-info{
+  padding-bottom: 20px;
+}
+#narrow {
+  flex: 1;
+  /* Grow to rest of container */
+  /* Just so it's visible */
+}
+.history{
+  padding-top: 20px;
+}
+.content {
+  margin-top: 20px;
+  zoom: 85%;
+}
+.content-reports {
+  margin-top: 20px;
+}
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+table{
+    margin-top: 40px;
+  }
+.form-c {
+  position: relative;
+  display: block;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  border: 3px solid #eee;
+}
+
+.form-c:focus {
+  border: 3px solid #bada55;
+  outline: 0;
+}
+
+.form-c[disabled] {
+  background: #fafafa;
+}
+
+.input-clear {
+    background-color: transparent;
+    border: 0px solid;
+    height: 30px;
+    width: 120px;
+}
+
+.border-no {
+border-top: 30px solid transparent;
+}
+
+.padder-left {
+  padding-left:14px;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9; 
+}
+
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+/* unvisited link */
+a:link {
+    color: black
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+.form-req {
+  border: 1px solid red !important;
+}
+
+#parent a:link, #parent a:visited {
+    color:#0074D9;
+}
+
+#parent a:hover {
+    color:#001f3f;
+}
+#maps-link a:link, #maps-link a:visited {
+    color:#0074D9;
+}
+
+#maps-link a:hover {
+    color:#001f3f;
+}

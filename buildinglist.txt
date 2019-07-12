@@ -1,0 +1,15 @@
+"7": {
+      "description": "(7) Maintenance Machine Shed",
+      "region": "2",
+      "fac_id": "D3"
+   },
+   "10": {
+      "description": "(10) Implement Barn",
+      "region": "6",
+      "fac_id": "D3"
+   },
+   "14": {
+      "description": "(14) Implement Storage Shed",
+      "region": "6",
+      "fac_id": "D3"
+   }
